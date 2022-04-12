@@ -1,0 +1,112 @@
+.home-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: -80px;
+  .header {
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    font-family: GillSans;
+    height: 500px;
+    background-image:
+      url(../images/home-hero.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      font-style: normal;
+      font-family: SerifReg;
+      font-weight: normal;
+      font-size: 40px;
+      margin-bottom: 7px;
+      margin-top: 80px;
+    }
+    .lp {
+      margin-bottom: 50px;
+      color: $site-pink;
+    }
+    .subheader {
+      text-align: center;
+      margin-bottom: 50px;
+      width: 500px;
+    }
+    .readmore {
+      text-decoration: none;
+      font-size: 15px;
+      font-style: normal;
+      width: 122px;
+      height: 40px;
+      background-color: $site-pink;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+    .readmore a:hover{
+      color:white;
+    }
+  }
+
+  .body {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .textholder {
+      height: 150px;
+      width: 800px;
+      font-size: 18px;
+      font-family: SerifReg;
+      #text {
+        margin-bottom: 30px;
+        font-family: Gills;
+        font-style: italic;
+        color: black;
+      }
+      #name {
+        color: $site-pink;
+        margin-bottom: 7px;
+      }
+      #ceo {
+        color: $site-purple;
+        font-size: 10px;
+      }
+    }
+  }
+
+  .text-box {
+    display: flex;
+    margin: 20px;
+    // border: rgb(179, 111, 192);
+
+    div{
+      border: 5px solid $site-pink;
+      padding: 20px;
+      width: 500px;
+      height: 200px;
+      display: flexbox;
+      justify-content: space-evenly;
+      h2{
+        color: aliceblue;
+        text-align: center;
+        font-family: Proxima;
+      }
+      p{
+        color: black;
+        font-size: 20px;
+        font-family: Proxima;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media only all and (max-width: 1250px) {
+  .home-content {
+    
+  }
+}

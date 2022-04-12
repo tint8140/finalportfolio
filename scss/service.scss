@@ -1,0 +1,122 @@
+.gallery-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: -80px;
+  .header{
+    height: 500px;
+    background-image: 
+    url(../images/gallery/service.jpeg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+  h2 {
+    margin: 20px 30px;
+    font-size: 25px;
+    font-family: GillSans;
+    font-weight: normal;
+    border-bottom: solid black 2px;
+    width: 100px;
+    padding-bottom: 5px;
+  }
+  p{
+    margin: 20px 200px;
+
+    font-size: 25px;
+
+
+  }
+}
+    
+}
+  
+  .images {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 30px;
+    .partOne {
+      display: flex;
+      justify-content: space-between;
+      min-height: 187px;
+      max-width: 980px;
+     
+      .food {
+        height: 387px;
+        width: 450px;
+        background-image: linear-gradient(
+            to right,
+            $green-overlay,
+            $green-overlay
+          ),
+          url(../images/gallery/design.jpg);
+        background-position: center;
+        background-size: cover;
+        h2{
+          text-decoration: none;
+        }
+      }
+      .crowd {
+        height: 387px;
+        width: 450px;
+        background-image: linear-gradient(
+            to right,
+            $pink-overlay,
+            $pink-overlay
+          ),
+          url(../images/gallery/build.jpeg);
+        background-position: center;
+        background-size: cover;
+      }
+      // .speaker {
+      //   height: 187px;
+      //   width: 265px;
+      //   background-image: linear-gradient(
+      //       to right,
+      //       $green-overlay,
+      //       $green-overlay
+      //     ),
+      //     url(../images/gallery/3.jpg);
+      //   background-position: center;
+      //   background-size: cover;
+      // }
+    }
+    .partTwo {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      .balloons {
+        height: 387px;
+        width: 450px;
+        background-image: linear-gradient(
+            to right,
+            $purple-overlay,
+            $purple-overlay
+          ),
+          url(../images/gallery/support.jpeg);
+        background-position: center;
+        background-size: cover;
+      }
+      .toronto {
+        height: 387px;
+        width: 450px;
+        background-image: linear-gradient(
+              to right,
+               $yellow-overlay,
+                $yellow-overlay
+             ),
+          url(../images/support.jpeg);
+        background-position: center;
+        background-size: cover;
+      }
+    }
+  }
+
+
+@media only all and (max-width: 1020px) {
+  .gallery-content {
+    margin-left: 20px;
+  }
+}

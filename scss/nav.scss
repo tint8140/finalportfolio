@@ -1,0 +1,44 @@
+nav {
+  max-width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 18px;
+  z-index: 99;
+
+h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  .links {
+    height: 42px;
+    align-self: center;
+    display: flex;
+    font-size: 20px;
+    font-family: GillSans;
+
+    a {
+      text-decoration: none;
+      color: black;
+      margin: auto;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
+    
+  }
+  .links a:hover {
+    color: $site-pink ;
+  }
+}
+
+
+
+@media only all and (max-width: 1020px) {
+  .black-nav {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}

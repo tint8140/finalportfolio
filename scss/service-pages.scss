@@ -1,0 +1,144 @@
+.gallery-pages {
+  max-width: 980px;
+  margin: 0 auto;
+  .image-One {
+    margin-top: 50px;
+    height: 300px;
+    background-image: linear-gradient(
+        to right,
+        $green-overlay,
+        $green-overlay
+      ),
+      url(../images/gallery/design.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .image-Two {
+    margin-top: 50px;
+    height: 300px;
+    background-image: linear-gradient(to right,  $pink-overlay,
+    $pink-overlay),
+      url(../images/gallery/build.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  // .image-Three {
+  //   margin-top: 50px;
+  //   height: 400px;
+  //   background-image: linear-gradient(to right, $green-overlay, $green-overlay),
+  //     url(../images/gallery/3.jpg);
+  //   background-position: center;
+  //   background-size: cover;
+  // }
+
+  .image-Four {
+    margin-top: 50px;
+    height: 300px;
+    background-image: linear-gradient(
+        to right,
+        $purple-overlay,
+        $purple-overlay
+      ),
+      url(../images/gallery/support.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .image-Five {
+    margin-top: 50px;
+    height: 300px;
+    background-image: linear-gradient(to right, $yellow-overlay,
+    $yellow-overlay),
+      url(../images/support.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .title {
+    display: flex;
+    font-family: GillSans;
+    text-shadow: 1px 1px 12px $text-shadow;
+    .h1 {
+      font-size: 300px;
+      margin-top: -280px;
+      margin-right: 20px;
+      color: $site-yellow;
+    }
+    .h2 {
+      font-size: 300px;
+      margin-top: -280px;
+      margin-right: 20px;
+      color: $site-pink;
+    }
+    // .h3 {
+    //   font-size: 300px;
+    //   margin-top: -280px;
+    //   margin-right: 20px;
+    //   color: $site-green;
+    // }
+    .h4 {
+      font-size: 300px;
+      margin-top: -280px;
+      margin-right: 20px;
+      color: $site-purple;
+    }
+
+    .h5 {
+      font-size: 300px;
+      margin-top: -280px;
+      margin-right: 20px;
+      color: $site-blue;
+    }
+
+    .title1 {
+      color: $site-yellow;
+      font-size: 140px;
+      margin-bottom: 0px;
+      margin-top: -130px;
+    }
+
+    .title2 {
+      color: $site-pink;
+      font-size: 140px;
+      margin-top: -130px;
+    }
+
+    // .title3 {
+    //   color: $site-green;
+    //   font-size: 140px;
+    //   margin-top: -130px;
+    // }
+
+    .title4 {
+      color: $site-purple;
+      font-size: 130px;
+      margin-top: -130px;
+    }
+
+    .title5 {
+      color: $site-blue;
+      font-size: 140px;
+      margin-top: -130px;
+    }
+  }
+
+  .paragraph {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    margin-bottom: 73px;
+    font-size: 25px;
+    font-family: Proxima;
+    // font-style: italic;
+    color: black;
+    
+  }
+}
+
+@media only all and (max-width: 1020px) {
+  .gallery-pages {
+    width: 80%;
+  }
+}

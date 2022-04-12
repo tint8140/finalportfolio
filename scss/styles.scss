@@ -1,0 +1,18 @@
+@import "variables.scss";
+@import "structure.scss";
+//nav
+@import "nav.scss";
+//home page
+@import "home.scss";
+//about page
+@import "about/about.scss";
+//projects
+@import "../projects/scss/project-pages.scss";
+@import "projects/project.scss";
+//contact
+@import "contact.scss";
+//service pages
+@import "service.scss";
+@import "service-pages.scss";
+//footer
+@import "footer.scss";
